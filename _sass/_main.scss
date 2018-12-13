@@ -1,0 +1,645 @@
+/*======================
+variabeLe
+===============================*/
+
+:root {
+    --primary-color: #B76F5C;
+    --main-font: 'noto sans';
+    --letter-spacing: 2px;
+    --font-size-sm: 9pt;
+}
+
+
+
+
+
+
+
+
+/*===============algemeen
+=======================*/
+.main_container {
+    position: relative;
+    /*width: 100%;*/
+}
+
+p {
+    font-family: var(--main-font);
+}
+
+.pulse{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================
+mabo logo links boven gedraaid
+===========================*/
+
+
+a {
+    color: black;
+}
+
+.mabologo:hover,
+.mabologo:active {
+    color: black;
+
+}
+
+
+
+
+@media (min-width: 576px) {
+    .mabologo {
+        width: 150px;
+        height: 80px;
+        transform: rotate(-90deg);
+
+        position: absolute !important;
+
+        left: -100px;
+        margin-top: 5%;
+    }
+
+    .mabologotest {
+        position: sticky;
+        top: 0;
+    }
+
+
+}
+
+
+
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/*================
+navigatie
+================*/
+.slideInDown{
+    animation-duration: 10s;
+
+}
+
+.navbar {
+    margin-top: 0px;
+}
+
+
+@media (min-width: 992px) {
+
+    .navbar {
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+}
+
+
+
+
+.navbar-nav a:hover {
+    color: black !important;
+    border-bottom: 1px solid black !important;
+
+
+}
+
+.navbar-nav a:active {
+    color: black !important;
+    border-bottom: 1px solid black !important;
+
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.nav-item {
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+
+
+
+
+
+
+
+/* =======================
+social media logo's
+========================*/
+
+
+@media (min-width: 576px) {
+    .iconlinks {
+        width: 60px;
+        color: black;
+        margin-top: 15pt;
+    }
+}
+
+
+
+
+
+
+/*foto*/
+.foto {
+    margin-bottom: 3%;
+    margin-top: 3%;
+
+}
+
+
+
+
+/*quote*/
+.quote {
+
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: var(--letter-spacing);
+    font-size: 20pt;
+
+}
+
+
+
+
+
+
+.quotebox {}
+
+.auteur {
+
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: var(--letter-spacing);
+    font-size: var(--font-size-sm);
+}
+
+
+.grap {
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================
+FORMS=========================*/
+
+
+.reward {
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    font-size: var(--font-size-sm);
+}
+
+
+.commando {
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    font-size: var(--font-size-sm);
+    font-weight: bold;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.bedrag {
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    font-size: 10px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.bedrag:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0px;
+}
+
+
+.bedrag:active {
+    box-shadow: 0 0 0 0;
+    outline: 0px;
+}
+
+.bedrag:visited {
+    background-color: green;
+}
+
+
+
+.rewardbox {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form-control {
+    margin-bottom: 5%;
+    display: inline;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    font-size: 9px;
+    font-weight: bold;
+
+
+}
+
+
+.btn-outline-secondary {
+
+    width: 20%;
+    color: #495057;
+    border-radius: 0px;
+
+   
+}
+
+
+.btn-outline-secondary:hover {
+    background-color: var(--primary-color);
+
+}
+
+.btn-outline-secondary:active {
+    background-color: var(--primary-color);
+}
+
+
+
+.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle),
+.input-group>.input-group-append:last-child>.input-group-text:not(:last-child),
+.input-group>.input-group-append:not(:last-child)>.btn,
+.input-group>.input-group-append:not(:last-child)>.input-group-text,
+.input-group>.input-group-prepend>.btn,
+.input-group>.input-group-prepend>.input-group-text {
+
+    border-radius: none;
+}
+
+
+
+.btn-outline-secondary:not(:disabled):not(.disabled).active,
+.btn-outline-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+
+
+
+.form-control:focus {
+    color: #495057;
+    /*streepje als ge typt*/
+    background-color: #fff;
+    border-color: var(--primary-color);
+    border-width: 3px;
+    border-radius: 0%;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.check {
+
+    text-transform: uppercase;
+
+    letter-spacing: var(--letter-spacing);
+    font-size: 8pt;
+    color: #495057;
+    font-weight: bold;
+
+
+
+
+}
+
+
+
+
+/*===============
+footer*
+=================*/
+
+.mabologoft {
+    max-width: 200px;
+}
+
+.footer {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.iconft {
+    margin-top: 50px;
+}
+
+.footergegevens {
+
+    margin-top: 50px;
+}
+
+
+.iconfooter {
+    color: black;
+    margin-left: 30px;
+}
+
+
+
+.telefoon {
+    color: black;
+    font-family: var(--main-font);
+    letter-spacing: var(--letter-spacing);
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: var(--font-size-sm);}
+
+
+.mail {
+    color: black;
+    font-family: var(--main-font);
+    font-size: var(--font-size-sm);
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: var(--letter-spacing);
+}
+
+
+
+
+
+
+/*=========================
+speciale steun mabo button
+==========================*/
+.buttonrood {
+    text-decoration: none;
+    line-height: 4rem;
+    font-size: 0.875rem;
+    position: relative;
+    z-index: 20;
+    display: inline-block;
+    padding: 0rem 2rem;
+    transition: 0.3s all ease;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing);
+    margin: 1rem;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-family: "noto sans";
+}
+
+.buttonrood:before,
+.buttonrood:after {
+    z-index: -1;
+    content: ' ';
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4rem;
+    transition: 0.5s all ease;
+    font-family: var(--main-font);
+}
+
+.buttonrood:before {
+    background: var(--primary-color);
+}
+
+.buttonrood:hover:before,
+.buttonrood:focus:before {
+    width: 100%;
+}
+
+.buttonrood:active,
+.buttonrood:focus {
+    color: #ffffff;
+}
+
+
+.buttonrood:active:after,
+.buttonrood:focus:after {
+    width: 100%;
+    background: #582414;
+}
+
+
+
+body {
+    font-family: var(--main-font), 'Segoe UI', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+    background: rgba(255, 102, 0, 0.44);
+}
+
+
+
+
+
+/*================================================================
+ GELE BUTTON
+ =======================================*/
+
+.buttongeel {
+    text-decoration: none;
+    line-height: 4rem;
+    font-size: 0.875rem;
+    position: relative;
+    z-index: 20;
+    display: inline-block;
+    padding: 0rem 2rem;
+    transition: 0.3s all ease;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing);
+    margin: 1rem;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-family: "noto sans";
+}
+
+.buttongeel:before,
+.buttongeel:after {
+    z-index: -1;
+    content: ' ';
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 4rem;
+    transition: 0.5s all ease;
+    font-family: var(--main-font);
+}
+
+.buttongeel:before {
+    background: #EFCA6C;
+}
+
+.buttongeel:hover:before,
+.buttongeel:focus:before {
+    width: 100%;
+}
+
+.buttongeel:active,
+.buttongeel:focus {
+    color: #ffffff;
+}
+
+
+.buttongeel:active:after,
+.buttongeel:focus:after {
+    width: 100%;
+    background: #582414;
+}
+
+
+
+body {
+    font-family: var(--main-font), 'Segoe UI', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+    background: rgba(255, 102, 0, 0.44);
+}
+
+
+
+
+
+/* ------------------------
+bedankt pagina
+---------------*/
+
+.bedankt {
+
+}
+
+.banana {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+
+
+    .container {
+        /*min-width:540px;*/
+        max-width: 80%;
+
+    }
+
+
+    .bedankt {
+        justify-content: center;
+        margin-top: 300px;
+    }
+
+
+    .collapse {
+        display: none !important;
+    }
+
+    
+
+
+
+}
+
+@media (min-width: 768px) {}
+
+
+
+@media (min-width: 992px) {}
+
+
+@media (min-width: 1200px) {
+    .container { 
+        min-width: 1140px;
+        max-width: 1110px;
+    }
+}
