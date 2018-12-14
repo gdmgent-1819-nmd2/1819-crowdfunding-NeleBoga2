@@ -27,19 +27,6 @@ p {
     font-family: var(--main-font);
 }
 
-.pulse{
-
-}
-
-
-
-
-
-
-
-
-
-
 
 
 /*=========================
@@ -103,7 +90,7 @@ a:active {
 /*================
 navigatie
 ================*/
-.slideInDown{
+.slideInDown {
     animation-duration: 10s;
 
 }
@@ -127,14 +114,11 @@ navigatie
 .navbar-nav a:hover {
     color: black !important;
     border-bottom: 1px solid black !important;
-
-
 }
 
 .navbar-nav a:active {
     color: black !important;
     border-bottom: 1px solid black !important;
-
 }
 
 .nav-link {
@@ -176,7 +160,6 @@ social media logo's
 .foto {
     margin-bottom: 3%;
     margin-top: 3%;
-
 }
 
 
@@ -184,20 +167,11 @@ social media logo's
 
 /*quote*/
 .quote {
-
     text-transform: uppercase;
     font-weight: lighter;
     letter-spacing: var(--letter-spacing);
     font-size: 20pt;
-
 }
-
-
-
-
-
-
-.quotebox {}
 
 .auteur {
 
@@ -213,9 +187,7 @@ social media logo's
     margin-bottom: 10%;
 }
 
-.dk {
-    margin-left: 50%;
-}
+
 /*=============================
 FORMS=========================*/
 
@@ -278,8 +250,6 @@ FORMS=========================*/
     letter-spacing: var(--letter-spacing);
     font-size: 9px;
     font-weight: bold;
-
-
 }
 
 
@@ -289,7 +259,7 @@ FORMS=========================*/
     color: #495057;
     border-radius: 0px;
 
-   
+
 }
 
 
@@ -309,354 +279,337 @@ FORMS=========================*/
 }
 
 @media (min-width: 576px) {
-    .acceptatie{
-    margin-top: 5%;
-  }
-
-
-
-
-.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle),
-.input-group>.input-group-append:last-child>.input-group-text:not(:last-child),
-.input-group>.input-group-append:not(:last-child)>.btn,
-.input-group>.input-group-append:not(:last-child)>.input-group-text,
-.input-group>.input-group-prepend>.btn,
-.input-group>.input-group-prepend>.input-group-text {
-
-    border-radius: none;
-}
-
-
-
-.btn-outline-secondary:not(:disabled):not(.disabled).active,
-.btn-outline-secondary:not(:disabled):not(.disabled):active,
-.show>.btn-outline-secondary.dropdown-toggle {
-    color: #fff;
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
-
-
-
-
-.form-control:focus {
-    color: #495057;
-    /*streepje als ge typt*/
-    background-color: #fff;
-    border-color: var(--primary-color);
-    border-width: 3px;
-    border-radius: 0%;
-    outline: 0;
-    box-shadow: none;
-}
-
-
-.check {
-
-    text-transform: uppercase;
-
-    letter-spacing: var(--letter-spacing);
-    font-size: 8pt;
-    color: #495057;
-    font-weight: bold;
-
-
-
+    .acceptatie {
+        margin-top: 5%;
+    }
 
 }
 
 
+    .input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle),
+    .input-group>.input-group-append:last-child>.input-group-text:not(:last-child),
+    .input-group>.input-group-append:not(:last-child)>.btn,
+    .input-group>.input-group-append:not(:last-child)>.input-group-text,
+    .input-group>.input-group-prepend>.btn,
+    .input-group>.input-group-prepend>.input-group-text {
+
+        border-radius: none;
+    }
 
 
-/*===============
+
+    .btn-outline-secondary:not(:disabled):not(.disabled).active,
+    .btn-outline-secondary:not(:disabled):not(.disabled):active,
+    .show>.btn-outline-secondary.dropdown-toggle {
+        color: #fff;
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+
+
+
+
+    .form-control:focus {
+        color: #495057;
+        /*streepje als ge typt*/
+        background-color: #fff;
+        border-color: var(--primary-color);
+        border-width: 3px;
+        border-radius: 0%;
+        outline: 0;
+        box-shadow: none;
+    }
+
+
+    .check {
+
+        text-transform: uppercase;
+
+        letter-spacing: var(--letter-spacing);
+        font-size: 8pt;
+        color: #495057;
+        font-weight: bold;
+    }
+
+
+
+
+    /*===============
 footer*
 =================*/
 
-.mabologoft {
-    max-width: 200px;
-}
+    .mabologoft {
+        max-width: 200px;
+    }
 
-.footer {
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
+    .footer {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
 
-.iconft {
-    margin-top: 50px;
-}
+    .iconft {
+        margin-top: 50px;
+    }
 
-.footergegevens {
+    .footergegevens {
 
-    margin-top: 50px;
-}
-
-
-.iconfooter {
-    color: black;
-    margin-left: 30px;
-}
+        margin-top: 50px;
+    }
 
 
-
-.telefoon {
-    color: black;
-    font-family: var(--main-font);
-    letter-spacing: var(--letter-spacing);
-    font-weight: lighter;
-    text-transform: uppercase;
-    font-size: var(--font-size-sm);}
-
-
-.mail {
-    color: black;
-    font-family: var(--main-font);
-    font-size: var(--font-size-sm);
-    text-transform: uppercase;
-    font-weight: lighter;
-    letter-spacing: var(--letter-spacing);
-}
+    .iconfooter {
+        color: black;
+        margin-left: 30px;
+    }
 
 
 
+    .telefoon {
+        color: black;
+        font-family: var(--main-font);
+        letter-spacing: var(--letter-spacing);
+        font-weight: lighter;
+        text-transform: uppercase;
+        font-size: var(--font-size-sm);
+    }
+
+
+    .mail {
+        color: black;
+        font-family: var(--main-font);
+        font-size: var(--font-size-sm);
+        text-transform: uppercase;
+        font-weight: lighter;
+        letter-spacing: var(--letter-spacing);
+    }
 
 
 
-/*=========================
+
+
+
+    /*=========================
 speciale steun mabo button
 ==========================*/
-.buttonrood {
-    text-decoration: none;
-    line-height: 4rem;
-    font-size: 0.875rem;
-    position: relative;
-    z-index: 20;
-    display: inline-block;
-    padding: 0rem 2rem;
-    transition: 0.3s all ease;
-    color: black;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: var(--letter-spacing);
-    margin: 1rem;
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    font-family: "noto sans";
-}
+    .buttonrood {
+        text-decoration: none;
+        line-height: 4rem;
+        font-size: 0.875rem;
+        position: relative;
+        z-index: 20;
+        display: inline-block;
+        padding: 0rem 2rem;
+        transition: 0.3s all ease;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: var(--letter-spacing);
+        margin: 1rem;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-family: "noto sans";
+    }
 
-.buttonrood:before,
-.buttonrood:after {
-    z-index: -1;
-    content: ' ';
-    width: 4rem;
-    height: 4rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 4rem;
-    transition: 0.5s all ease;
-    font-family: var(--main-font);
-}
+    .buttonrood:before,
+    .buttonrood:after {
+        z-index: -1;
+        content: ' ';
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 4rem;
+        transition: 0.5s all ease;
+        font-family: var(--main-font);
+    }
 
-.buttonrood:before {
-    background: var(--primary-color);
-}
+    .buttonrood:before {
+        background: var(--primary-color);
+    }
 
-.buttonrood:hover:before,
-.buttonrood:focus:before {
-    width: 100%;
-}
+    .buttonrood:hover:before,
+    .buttonrood:focus:before {
+        width: 100%;
+    }
 
-.buttonrood:active,
-.buttonrood:focus {
-    color: #ffffff;
-}
-
-
-.buttonrood:active:after,
-.buttonrood:focus:after {
-    width: 100%;
-    background: #582414;
-}
+    .buttonrood:active,
+    .buttonrood:focus {
+        color: #ffffff;
+    }
 
 
-
-body {
-    font-family: var(--main-font), 'Segoe UI', 'Helvetica Neue', sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-}
-
-::selection {
-    background: rgba(255, 102, 0, 0.44);
-}
+    .buttonrood:active:after,
+    .buttonrood:focus:after {
+        width: 100%;
+        background: #582414;
+    }
 
 
 
+    body {
+        font-family: var(--main-font), 'Segoe UI', 'Helvetica Neue', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+
+    ::selection {
+        background: rgba(255, 102, 0, 0.44);
+    }
 
 
-/*================================================================
+
+
+
+    /*================================================================
  GELE BUTTON
  =======================================*/
 
-.buttongeel {
-    text-decoration: none;
-    line-height: 4rem;
-    font-size: 0.875rem;
-    position: relative;
-    z-index: 20;
-    display: inline-block;
-    padding: 0rem 2rem;
-    transition: 0.3s all ease;
-    color: black;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: var(--letter-spacing);
-    margin: 1rem;
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    margin-bottom: 10%;
-    margin-top: 10%;
-    font-family: "noto sans";
-}
+    .buttongeel {
+        text-decoration: none;
+        line-height: 4rem;
+        font-size: 0.875rem;
+        position: relative;
+        z-index: 20;
+        display: inline-block;
+        padding: 0rem 2rem;
+        transition: 0.3s all ease;
+        color: black;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: var(--letter-spacing);
+        margin: 1rem;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-family: "noto sans";
+    }
 
-.buttongeel:before,
-.buttongeel:after {
-    z-index: -1;
-    content: ' ';
-    width: 4rem;
-    height: 4rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 4rem;
-    transition: 0.5s all ease;
-    font-family: var(--main-font);
-}
+    .buttongeel:before,
+    .buttongeel:after {
+        z-index: -1;
+        content: ' ';
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 4rem;
+        transition: 0.5s all ease;
+        font-family: var(--main-font);
+    }
 
-.buttongeel:before {
-    background: #EFCA6C;
-}
+    .buttongeel:before {
+        background: #EFCA6C;
+    }
 
-.buttongeel:hover:before,
-.buttongeel:focus:before {
-    width: 100%;
-}
+    .buttongeel:hover:before,
+    .buttongeel:focus:before {
+        width: 100%;
+    }
 
-.buttongeel:active,
-.buttongeel:focus {
-    color: #ffffff;
-}
-
-
-.buttongeel:active:after,
-.buttongeel:focus:after {
-    width: 100%;
-    background: #582414;
-}
+    .buttongeel:active,
+    .buttongeel:focus {
+        color: #ffffff;
+    }
 
 
-
-body {
-    font-family: var(--main-font), 'Segoe UI', 'Helvetica Neue', sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-}
-
-::selection {
-    background: rgba(255, 102, 0, 0.44);
-}
+    .buttongeel:active:after,
+    .buttongeel:focus:after {
+        width: 100%;
+        background: #582414;
+    }
 
 
 
+    body {
+        font-family: var(--main-font), 'Segoe UI', 'Helvetica Neue', sans-serif;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+
+    ::selection {
+        background: rgba(255, 102, 0, 0.44);
+    }
 
 
-/* ------------------------
+
+
+
+    /* ------------------------
 bedankt pagina
 ---------------*/
 
-.bedankt {
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-
-
-@media (min-width: 576px) {
-    .bedankt{
-    margin-top: 10px;
-    margin-bottom: 10px;}
-
-
-
-
-
-.banana {
-    justify-content: center;
-    margin-top: 50px;
-}
-
-
-
-
-
-@media (min-width: 576px) {
-
-
-    .container {
-        /*min-width:540px;*/
-        max-width: 80%;
-
-    }
-
-
     .bedankt {
-        justify-content: center;
-        margin-top: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
     }
 
 
-    .collapse {
-        display: none !important;
+
+    @media (min-width: 576px) {
+        .bedankt {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .banana {
+            justify-content: center;
+            margin-top: 50px;
+        }
+
     }
 
-    
 
 
+    @media (min-width: 576px) {
+        .container {
+            /*min-width:540px;*/
+            max-width: 80%;
 
-}
-
-@media (min-width: 768px) {}
-
-
-
-@media (min-width: 992px) {}
+        }
 
 
-@media (min-width: 1200px) {
-    .container { 
-        min-width: 1140px;
-        max-width: 1110px;
+        .bedankt {
+            justify-content: center;
+            margin-top: 300px;
+        }
+
+
+        .collapse {
+            display: none !important;
+        }
+
     }
-}
+
+
+
+    @media (min-width: 1200px) {
+        .container {
+            min-width: 1140px;
+            max-width: 1110px;
+        }
+    }
