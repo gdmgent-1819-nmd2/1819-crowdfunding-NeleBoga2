@@ -213,17 +213,9 @@ social media logo's
     margin-bottom: 10%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.dk {
+    margin-left: 50%;
+}
 /*=============================
 FORMS=========================*/
 
@@ -313,8 +305,14 @@ FORMS=========================*/
 
 
 .acceptatie {
-    margin-top: 5%;
+    margin-top: 10%;
 }
+
+@media (min-width: 576px) {
+    .acceptatie{
+    margin-top: 5%;
+  }
+
 
 
 
@@ -606,6 +604,7 @@ bedankt pagina
 
 
 @media (min-width: 576px) {
+    .bedankt{
     margin-top: 10px;
     margin-bottom: 10px;}
 
