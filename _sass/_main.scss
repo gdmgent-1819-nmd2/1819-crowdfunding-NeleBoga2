@@ -592,8 +592,20 @@ bedankt pagina
 ---------------*/
 
 .bedankt {
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
+
+
+
+@media (min-width: 576px) {
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+
+
+
 
 .banana {
     justify-content: center;
