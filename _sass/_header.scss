@@ -183,7 +183,7 @@ homepage foto
 }
 
 .cijferteksth {
-    font-size: 8pt;
+    font-size: 6pt;
     margin-top: -9%;
     text-transform: uppercase;
     font-weight: lighter;
@@ -275,7 +275,11 @@ homepage foto
 
 }
 
-
+@media (min-width:786px ){
+    .cijferteksth {
+        font-size: 8pt;
+}
+}
 @media (min-width: 1200px) {
     /*grrrrrrooooooooot*/
 
