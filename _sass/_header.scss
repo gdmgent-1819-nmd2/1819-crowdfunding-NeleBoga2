@@ -161,8 +161,12 @@ homepage foto
 ======================*/
 .jumbotron {
     background-color: white;
+    padding: 0px !important;
 }
 
+.form-check-input {
+    margin-top: 0;
+}
 
 
 .jumbotron .container {
