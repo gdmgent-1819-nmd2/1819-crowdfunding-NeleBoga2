@@ -20,7 +20,12 @@ h2.teasertext {
     display: inline-block;
 }
 
-
+.lala:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+    background-color: green;
+}
 
 
 
@@ -280,6 +285,8 @@ homepage foto
         font-size: 8pt;
 }
 }
+
+
 @media (min-width: 1200px) {
     /*grrrrrrooooooooot*/
 
