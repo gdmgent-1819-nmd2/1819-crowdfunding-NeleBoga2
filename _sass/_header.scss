@@ -110,10 +110,18 @@ allemaal media querries voor de bloedappelsien
 
 
 
+
+
+
+/* NAVIGATIE */
+
 .navbar-toggler {
     margin-top: -80px;
 }
 
+.nav-item{
+	max-width:26%;
+}
 
 
 
@@ -335,5 +343,17 @@ homepage foto
         margin-top: 10%;
 
         line-height: 1.75;
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) {
+    body > .container {
+        /*min-width:540px;*/
+        max-width: 80%;
+
     }
 }
