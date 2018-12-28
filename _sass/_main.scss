@@ -619,9 +619,26 @@ bedankt pagina
 
 
 
+
+
+@media (min-width: 576px) {
+    body > .container {
+        /*min-width:540px;*/
+        max-width: 80%;
+
+    }
+}
+@media (min-width: 1100px) {
+    body > .container {
+        /*min-width:540px;*/
+        max-width: 60%;
+
+    }
+}
+
 @media (min-width: 1200px) {
     .container {
-        min-width: 1140px;
+        min-width: 1000px;
         max-width: 1110px;
     }
 }

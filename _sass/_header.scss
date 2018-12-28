@@ -1,4 +1,8 @@
-/* een munststuk voor een zeefdruk*/
+/* ========================= 
+======================================
+een munststuk voor een zeefdruk quote ( behalve op homepage)
+===================================
+====================================*/
 
 .teaser {
     margin-bottom: 10px;
@@ -20,6 +24,12 @@ h2.teasertext {
     display: inline-block;
 }
 
+.teasertext {
+    margin-top: 100px;
+    border-right: 30px;
+    border-bottom: 200px;
+    border-color: white;
+}
 
 
 
@@ -38,7 +48,7 @@ allemaal media querries voor de bloedappelsien
         background-repeat: no-repeat;
         height: 300px;
         background-attachment: absolute;
-        background-position: 102% -25%;
+        background-position: 103% -15%;
         text-align: center;
     }
 
@@ -49,22 +59,22 @@ allemaal media querries voor de bloedappelsien
         padding-bottom: 2%;
         display: inline-block;
     }
-
-
-
 }
+
+
 
 @media (min-width: 768px) {
     .teaser {
-        margin-bottom: 20px;
-        letter-spacing: var(--letter-spacing);
-        background-image: url('../../foto/bloedapvoorgesteld.jpg');
         background-size: 30%;
-        background-repeat: no-repeat;
-        height: 300px;
-        background-attachment: absolute;
-        background-position: 85% -10%;
-        text-align: center;
+        background-position: 92% 10%;
+    }
+}
+
+
+
+@media (min-width: 800px) {
+    .teaser {
+        background-position: 88% -5%;
     }
 }
 
@@ -72,41 +82,45 @@ allemaal media querries voor de bloedappelsien
 
 @media (min-width: 973px) {
     .teaser {
-        margin-bottom: 20px;
-        letter-spacing: var(--letter-spacing);
-        background-image: url('../../foto/bloedapvoorgesteld.jpg');
         background-size: 25%;
-        background-repeat: no-repeat;
-        height: 300px;
-        background-attachment: absolute;
-        background-position: 78% -18%;
-        text-align: center;
+        background-position: 80% -10%;
     }
 }
 
+
+@media (min-width: 1100px) {
+    .teaser {
+        background-size: 30%;
+        background-position: 88% -5%;
+    }
+}
 
 @media (min-width: 1200px) {
     .teaser {
-        margin-bottom: 20px;
-        letter-spacing: var(--letter-spacing);
-        background-image: url('../../foto/bloedapvoorgesteld.jpg');
-        background-size: 20%;
-        background-repeat: no-repeat;
-        height: 300px;
-        background-attachment: absolute;
-        background-position: 70% -21%;
-        text-align: center;
+        background-position: 75% -45px;
     }
-
 }
 
 
-.teasertext {
-    margin-top: 100px;
-    border-right: 30px;
-    border-bottom: 200px;
-    border-color: white;
+
+@media (min-width: 1700px) {
+    .teaser {
+        background-position: 75% 200%;
+    }
 }
+
+
+
+@media (min-width: 1850px) {
+    .teaser {
+        background-position: 75% 180%;
+    }
+}
+
+
+
+
+
 
 
 
@@ -119,8 +133,8 @@ allemaal media querries voor de bloedappelsien
     margin-top: -80px;
 }
 
-.nav-item{
-	max-width:26%;
+.nav-item {
+    max-width: 26%;
 }
 
 
@@ -191,10 +205,10 @@ homepage foto
 
 @media (min-width: 768px) {
     .jumbotron .container {
-       
+
         padding: 2% 20%;
-    
-    
+
+
     }
 
 }
@@ -296,10 +310,10 @@ homepage foto
 
 }
 
-@media (min-width:786px ){
+@media (min-width:786px) {
     .cijferteksth {
         font-size: 8pt;
-}
+    }
 }
 
 
@@ -343,17 +357,5 @@ homepage foto
         margin-top: 10%;
 
         line-height: 1.75;
-    }
-}
-
-
-
-
-
-@media (min-width: 576px) {
-    body > .container {
-        /*min-width:540px;*/
-        max-width: 80%;
-
     }
 }
